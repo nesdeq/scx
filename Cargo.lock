@@ -4080,6 +4080,24 @@ dependencies = [
 ]
 
 [[package]]
+name = "scx_zen3"
+version = "1.1.1"
+dependencies = [
+ "anyhow",
+ "clap",
+ "crossbeam",
+ "ctrlc",
+ "libbpf-rs",
+ "log",
+ "scx_cargo",
+ "scx_stats",
+ "scx_stats_derive",
+ "scx_utils",
+ "serde",
+ "simplelog",
+]
+
+[[package]]
 name = "scxcash"
 version = "1.1.1"
 dependencies = [
